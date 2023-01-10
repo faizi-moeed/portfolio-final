@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?famy=Montserrat&display=swap');
 
 :root {
-    --primary-colore: #171818;
-    --off-white: #f4f4f5;
-    --dark-gray: #71717a;
+    --primary-colore: #27503f7c;
+    --off-white: #01010e;
+    --dark-gray: #f6f6ff;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+body{
+	background:#1F1F1F url(../pattern.png) repeat top left;
+	color:#fff;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:14px;
 }
 
 hr {

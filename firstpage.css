@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?famy=Montserrat&display=swap');
 
 :root {
-    --primary-colore:  #171818;
+    --primary-colore:  #27503f7c;
     --off-white: #f4f4f5;
     --dark-gray: #71717a;
 }
@@ -10,7 +10,12 @@ body {
     margin: 0px;
     
 }
-
+.back-video{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+}
 hr {
     margin: 2rem 0rem;
 }
