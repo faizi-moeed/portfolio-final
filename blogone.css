@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?famy=Montserrat&display=swap');
 
 :root {
-    --primary-colore: #27503f7c;
-    --off-white: #01010e;
-    --dark-gray: #f6f6ff;
+    --primary-colore:  #01110a3f;
+    --off-white: #f4f4f59d;
+    --dark-gray: #71717a7e;
+    --light-green: #5b22a781;
 }
-body{
-	background:#1F1F1F url(../pattern.png) repeat top left;
-	color:#fff;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
-	font-size:14px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    
 }
-
+.back-video{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -5;
+}
 hr {
     margin: 2rem 0rem;
 }
@@ -25,7 +30,14 @@ hr {
     max-width: 600px;
     margin: auto;
     padding-top: 2rem;
-    
+    text-align: center;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--off-white);
+}
+.side-heading{
+    color: var(--off-white);
 }
 
 .link {
@@ -43,9 +55,9 @@ hr {
 
 .link-secondary {
     padding: 0.5rem;
-    color: var(--primary-colore);
+    color: var(--off-white);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-colore) ;
+    border: 1px solid var(--off-white) ;
 }
 
 
@@ -63,7 +75,7 @@ hr {
     background-color: var(--primary-colore);
     color: white;
     padding: 1rem;
-    padding-left: 10rem;
+    padding-left: 5rem;
     border-bottom-left-radius: 2rem;
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -72,7 +84,9 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 30px;
+    color: var(--light-green);
 }
 .navigation .nav-pills {
     text-align: right;
@@ -80,7 +94,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--light-green);
 }
 
 .navigation .link-active {
@@ -89,6 +103,7 @@ hr {
 
 .hero{
     padding: 2rem;
+    
 
 }
  
@@ -105,13 +120,16 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-colore);
+    color: var(--light-green);
 }
 .section {
     padding: 2rem;
 }
 
-
+.section h1 {
+    text-align: center;
+   
+}
 .ow {
     background-color: var(--off-white);
 }

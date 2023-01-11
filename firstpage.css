@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?famy=Montserrat&display=swap');
 
 :root {
-    --primary-colore:  #27503f7c;
-    --off-white: #f4f4f5;
-    --dark-gray: #71717a;
+    --primary-colore:  #01110a3f;
+    --off-white: #f4f4f59d;
+    --dark-gray: #71717a7e;
+    --light-green: #5b22a781;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -31,6 +32,13 @@ hr {
     padding-top: 2rem;
     text-align: center;
 }
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--off-white);
+}
+.side-heading{
+    color: var(--off-white);
+}
 
 .link {
     text-decoration: none;
@@ -47,9 +55,9 @@ hr {
 
 .link-secondary {
     padding: 0.5rem;
-    color: var(--primary-colore);
+    color: var(--off-white);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-colore) ;
+    border: 1px solid var(--off-white) ;
 }
 
 
@@ -76,8 +84,9 @@ hr {
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 30px;
+    color: var(--light-green);
 }
 .navigation .nav-pills {
     text-align: right;
@@ -85,7 +94,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--light-green);
 }
 
 .navigation .link-active {
@@ -111,7 +120,7 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-colore);
+    color: var(--light-green);
 }
 .section {
     padding: 2rem;
