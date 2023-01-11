@@ -11,6 +11,7 @@ body {
     margin: 0px;
     
 }
+
 .back-video{
     position:fixed;
     right: 0;
@@ -157,12 +158,13 @@ hr {
 
 }
 .footer .link {
-    color: white;
+    color: var(--light-green);
 }
 
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    color: var(--dark-gray);
 }
 
 .footer .ul {
