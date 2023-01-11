@@ -4,7 +4,7 @@
     --primary-colore:  #01110a3f;
     --off-white: #f4f4f59d;
     --dark-gray: #71717a7e;
-    --light-green: #5b22a781;
+    --light-green: #04f3d37a;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -32,12 +32,23 @@ hr {
     padding-top: 2rem;
     text-align: center;
 }
+.container-center .hero-heading{
+    color: var(--dark-gray);
+}
+.container-center .heading-inverted{
+    color: var(--dark-gray);
+    
+
+}
+.skill{
+    text-align: right;
+}
 .text{
     font-family: 'Montserrat', sans-serif;
     color: var(--off-white);
 }
 .side-heading{
-    color: var(--off-white);
+    color: var(--light-green);
 }
 
 .link {
